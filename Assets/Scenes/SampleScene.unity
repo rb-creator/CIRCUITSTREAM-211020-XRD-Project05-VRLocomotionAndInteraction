@@ -220,7 +220,7 @@ MonoBehaviour:
   head: {fileID: 947379445}
   canSmoothMove: 0
   moveSpeed: 20
-  canSmoothRotate: 0
+  canSmoothRotate: 1
   rotateSpeed: 20
   canTeleport: 1
   teleportingHand: {fileID: 1240404910}
@@ -230,6 +230,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5947050469144599839, guid: d16aaa2ddb712114e9cf368557558719, type: 3}
   m_PrefabInstance: {fileID: 518537448}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &344759295
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344759292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.23080826
+  m_Height: 1.4118941
+  m_Direction: 1
+  m_Center: {x: -0.014045715, y: 0.73966455, z: 0.011714935}
 --- !u!1 &502721417
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,7 +403,7 @@ PrefabInstance:
       objectReference: {fileID: 821067889}
     - target: {fileID: 5947050470917028199, guid: d16aaa2ddb712114e9cf368557558719, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.36144
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d16aaa2ddb712114e9cf368557558719, type: 3}
@@ -557,7 +571,7 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 0
+  m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!1 &1824977580
 GameObject:
